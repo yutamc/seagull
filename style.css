@@ -1,0 +1,93 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h1 h2 h3 h4{
+    font-weight: 700;
+}
+
+.spacer{
+    padding: 0;
+}
+
+/*navbar*/
+
+#navigation{
+    background-color: rgb(224,224,224,0.4);
+}
+
+.navbar{
+    text-transform: uppercase;
+    
+}
+
+.navbar a{
+    color: #000;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/*titletext*/
+
+.hero{
+    position: relative;
+}
+
+.heroText{
+    position:absolute;
+    top:50%;
+    right:15%;
+    background-color: rgba(255, 255, 255, 0.527) ;
+    font-size: 3rem;
+}
+
+
+/*features*/
+
+.featureTitle{
+    text-align: center;
+    font-weight:900;
+    box-shadow: 0 -3rem black; 
+}
+
+.headerCont{
+    background-color: rgb(255, 123, 0);
+    margin:0;
+    color: rgb(255, 255, 255);
+}
+
+.featureBlock{
+    padding:0;
+}
+
+.featureBlock p{
+    box-sizing: border-box;
+}
+
+
+/*Contact*/
+
+.contactUs{
+    background-color: black;
+    color: white;
+    margin:0;
+}
+
+/*footer*/
+
+footer p{
+    text-align: center;
+    background-color:black;
+    margin:0;
+    color: white;
+}
+

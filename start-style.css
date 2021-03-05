@@ -1,0 +1,92 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*navbar*/
+
+#navigation{
+    background-color: rgb(224,224,224,0.4);
+}
+
+.navbar{
+    text-transform: uppercase;
+    
+}
+
+.navbar a{
+    color: #000;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/*hero*/
+
+.spacer{
+    min-height: 13%;
+}
+
+.start-hero{
+    clear: both;
+    text-align: center;
+}
+
+.selectSb{
+    margin-top: 2rem;
+    max-width: 80%;
+}
+
+/*teachers*/
+
+
+.rowCont{
+    margin-top: 2%;
+    max-width: 95%;
+    margin:auto;
+}
+
+.card{
+    padding:0;
+}
+.cardTop{
+    background-color: #fd7e14;
+    margin: 0;
+    position:relative;
+}
+
+.profilePic{
+    max-height: 90px;
+    max-width: 90px;
+    min-width:70px;
+    min-height: 70px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.profName{
+    position:absolute;
+    right: 5%;
+    top: 50%;
+    transform:translate(-5%, -50%);
+    color:#f8f9fa;
+    margin:0;
+}
+
+.card-body p{
+    padding: 2%;
+}
+
+.card-body{
+    position: relative;
+}
+
+.subject{
+    text-align:right;
+    padding-right: 6%;
+    color: #fff;
+    opacity: 0.8;
+}
